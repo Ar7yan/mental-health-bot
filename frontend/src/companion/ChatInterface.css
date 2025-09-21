@@ -1,0 +1,44 @@
+/* Quick Suggestions */
+.quick-suggestions {
+  padding: 15px;
+  background: #e8f5e8;
+  border-top: 1px solid #c8e6c9;
+}
+
+.quick-suggestions p {
+  margin: 0 0 10px 0;
+  color: #2e7d32;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.suggestion-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 8px 8px 0;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.suggestion-btn:hover {
+  background: #388e3c;
+  transform: translateY(-2px);
+}
+
+/* Gemini-specific styles */
+.chat-footer {
+  padding: 10px 15px;
+  background: #fff3cd;
+  border-top: 1px solid #ffeaa7;
+  text-align: center;
+}
+
+.chat-footer small {
+  color: #856404;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
